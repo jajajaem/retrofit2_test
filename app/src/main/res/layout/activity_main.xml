@@ -9,20 +9,29 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:orientation="vertical">
+
     <Space
         android:layout_width="0dp"
         android:layout_height="50dp"/>
+
     <EditText
         android:id="@+id/tv1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="1"
         android:layout_gravity="center"/>
+
     <Button
         android:id="@+id/btn_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="버튼"/>
+        android:text="Get버튼"/>
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post버튼"/>
 
     <TextView
         android:id="@+id/tv2"
