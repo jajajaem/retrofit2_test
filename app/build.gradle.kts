@@ -33,6 +33,9 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures{
+        viewBinding = true
+    }
 }
 
 dependencies {
@@ -49,4 +52,7 @@ dependencies {
     //retrofit2
     implementation("com.squareup.retrofit2:retrofit:2.11.0")
     implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+
+    //리사이클러뷰
+    implementation("androidx.recyclerview:recyclerview:1.3.1")
 }
